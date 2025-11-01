@@ -40,6 +40,18 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 | Extras | TextBlob (sentiment) |
 | Language | Python |
 ---
+## Google Colab Notebook
+
+You can view or run the development version of this project in Google Colab:
+
+📄 **Colab link:**  
+https://colab.research.google.com/drive/152GpKJhrzV0vuebgdgoKj5W5vYwVzJ41?usp=sharing
+
+This notebook contains:
+- Hybrid rule-based + ML model training
+- Testing and evaluation
+- Vsualization , metric,pca, heat map
+---
 
 ## Repository Structure
 ``` 
