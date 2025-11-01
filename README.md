@@ -57,10 +57,10 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 |--------|------|
 | **Nathan** | ML Pipeline / Backend development |
 | **Bharath** | ML + Rules integration / Project implementation |
-| **Gokulan** | Annotation + Quality control |
-| **Krishnalaya** | Annotation + Visualization |
-| **Keerthi** | Data collection + prompt engineering |
-| **Gabel Nibu** | Documentation + Repo |
+| **Gokulan** | System Intergrater + Quality control |
+| **Krishnalaya** | Frontend + Visualization |
+| **Keerthi** | Data Anlytics+ Prompt Engineering |
+| **Gabel Nibu** | Documentation + Data|
 
 > Code development was led by **Nathan & Bharath**, while other members supported dataset creation, annotation, UI & documentation.
 
