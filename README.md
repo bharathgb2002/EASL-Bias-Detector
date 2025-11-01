@@ -5,7 +5,7 @@ This project was developed as part of CSE5PM — Assessment 3 at La Trobe Univer
 
 ---
 
-## ✅ Project Overview
+## Project Overview
 Reducing biases in AI systems is critical to ensure fairness and trust.  
 Our project builds an Extended Active Selection Loop (EASL) that:
 1) Collects prompts
@@ -18,7 +18,7 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 
 ---
 
-## ✅ Features
+## Features
 ✔ Multi-label bias classification  
 ✔ Binary flag — *Biased / Not biased*  
 ✔ Supports rule-based + ML hybrid prediction  
@@ -30,7 +30,7 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 
 ---
 
-## ✅ Tech Stack
+## Tech Stack
 | Component | Technology |
 |----------|------------|
 | UI | Gradio |
@@ -39,10 +39,19 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 | Visualisation | Matplotlib, PCA |
 | Extras | TextBlob (sentiment) |
 | Language | Python |
-
 ---
 
-## ✅ Team 6 Prime — Contributors
+## Repository Structure
+``` 
+├── app.py                      # Gradio application
+├── requirements.txt            # Dependencies
+├── data/
+│   └── trained_prompts_mc.csv  # Final labelled prompts
+├── README.md                   # Documentation
+``` 
+---
+
+## Team 6 Prime — Contributors
 
 | Member | Role |
 |--------|------|
@@ -57,4 +66,3 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 
 ---
 
-## ✅ Repo Structure
