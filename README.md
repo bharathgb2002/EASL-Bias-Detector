@@ -50,19 +50,46 @@ This tool can evaluate multiple LLMs and compare their bias profiles.
 ├── README.md                   # Documentation
 ``` 
 ---
+---
 
+## Running the App
+
+1) Ensure `trained_prompts_mc.csv` exists at:
+
+   data/trained_prompts_mc.csv
+
+2) Install packages:
+   pip install -r requirements.txt
+
+3) Run:
+   python app.py
+
+---
 ## Team 6 Prime — Contributors
 
-| Member | Role |
-|--------|------|
-| **Nathan** | ML Pipeline / Backend development |
-| **Bharath** | ML + Rules integration / Project implementation |
-| **Gokulan** | System Intergrater + Quality control |
-| **Krishnalaya** | Frontend + Visualization |
-| **Keerthi** | Data Anlytics+ Prompt Engineering |
-| **Gabel Nibu** | Documentation + Data|
+| Member        | Role                                   |
+|---------------|----------------------------------------|
+| **Nathan**     | ML Pipeline / Backend Development      |
+| **Bharath**    | ML + Rules Integration / Implementation |
+| **Gokulan**    | System Integration + Quality Control   |
+| **Krishnalaya**| Frontend + Visualisation               |
+| **Keerthi**    | Data Analytics + Prompt Engineering    |
+| **Gabel Nibu** | Documentation + Data Management        |
+
+
 
 > Code development was led by **Nathan & Bharath**, while other members supported dataset creation, annotation, UI & documentation.
+
+## Future Work
+
+Plans for improvement include:
+1) Expand labelled dataset for better generalisation
+2) Experiment with additional classifiers
+3) Explore transformer embeddings (e.g., SBERT)
+4) Build larger keyword dictionary
+5) Improve country-wise data balance
+6) Multi-annotator agreement integration
+7) Improve linguistic rule-based patterns and contextual cues
 
 ---
 
